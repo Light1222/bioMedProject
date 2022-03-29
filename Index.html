@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Colored Contacts</h1>
+        <img src="#" id="image" width="400px">
+        <div class="row">
+             <button id="b">Blue</button>
+             <button id="lb">Brilliant Blue</button>
+             <button id="sg">Sterling Grey</button>
+             <button id="gg">Gemstone Green</button>
+             <button id="g">Green</button>
+             <button id="gr">Grey</button>
+             <button id="h">Hazel</button>
+             <button id="ho">Honey</button>
+             <button id="br">Brown</button>
+        </div>
+    </div>
+</div>
+<script>
+    const image = document.getElementById('image');
+    const blueButton = document.getElementById('b');
+    const lightBlueButton =  document.getElementById('lb');
+    const sterlingGreyButton = document.getElementById('sg');
+    const gemStoneGreenButton = document.getElementById('gg');
+    const greenButton =  document.getElementById('g');
+    const greyButton = document.getElementById('gr');
+    const hazelButton = document.getElementById('h');
+    const honeyButton =  document.getElementById('ho');
+    const brownButton = document.getElementById('br');
+
+    blueButton.addEventListener('click', function(e){
+        image.src="blueEye.PNG"
+    });
+    lightBlueButton.addEventListener('click', function(e){
+        image.src="brilliantBlueEye.PNG"
+    });
+    sterlingGreyButton.addEventListener('click', function(e){
+        image.src="sterlingGreyEye.PNG"
+    });
+    gemStoneGreenButton.addEventListener('click', function(e){
+        image.src="gemStoneGreenEye.PNG"
+    });
+    greenButton.addEventListener('click', function(e){
+        image.src="greenEye.PNG"
+    });
+    greyButton.addEventListener('click', function(e){
+        image.src="greyEye.PNG"
+    });
+    hazelButton.addEventListener('click', function(e){
+        image.src="hazelEye.PNG"
+    });
+    honeyButton.addEventListener('click', function(e){
+        image.src="honeyEye.PNG"
+    });
+    brownButton.addEventListener('click', function(e){
+        image.src="brownEye.PNG"
+    });
+</script>
+</body>
+</html>
